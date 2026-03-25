@@ -65,11 +65,11 @@ export default function InfoModal({
           <p className="text-lg font-bold text-gray-800">{getMood()}</p>
         </div>
 
-        <div className="mb-6 rounded-lg border-2 border-blue-200 bg-blue-50 p-4">
-          <p className="mb-3 border-b border-blue-200 pb-2 text-sm font-bold text-blue-900">
-            🤖 Botanist AI Tips
+        <div className="mb-6 rounded-lg border-2 border-green-200 bg-green-50 p-4">
+          <p className="mb-3 border-b border-green-200 pb-2 text-sm font-bold text-green-900">
+            ✨ The Goddess Whispers
           </p>
-          <ul className="mb-4 space-y-2 text-sm text-blue-900">
+          <ul className="mb-4 space-y-2 text-sm text-green-900">
             <li>
               <span className="font-bold">Watering:</span> Every{" "}
               {plant.ai_care_tips?.water_frequency_days || 7} days
@@ -79,8 +79,8 @@ export default function InfoModal({
               {plant.ai_care_tips?.sunlight_needs || "Unknown"}
             </li>
           </ul>
-          <div className="rounded-lg border border-blue-200 bg-blue-100 p-3 text-xs italic text-blue-900">
-            "{plant.ai_care_tips?.fun_fact || "No fun facts available."}"
+          <div className="rounded-lg border border-green-200 bg-green-100 p-3 text-xs italic text-green-900">
+            "{plant.ai_care_tips?.fun_fact || "The Goddess is silent today."}"
           </div>
         </div>
 

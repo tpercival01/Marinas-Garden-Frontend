@@ -70,10 +70,10 @@ export default function WelcomeModal({ onClose }: WelcomeModalProps) {
                 </div>
               </div>
               <div className="flex items-start gap-4">
-                <span className="text-2xl">🤖</span>
+                <span className="text-2xl">✨</span>
                 <div>
-                  <h3 className="font-bold text-yellow-400">Consult the Oracle</h3>
-                  <p className="text-sm">The Botanist AI will automatically calculate exactly how many days each plant needs between waterings.</p>
+                  <h3 className="font-bold text-yellow-400">The Garden's Magic</h3>
+                  <p className="text-sm">The enchanted soil will automatically sense exactly how many days each plant needs between waterings.</p>
                 </div>
               </div>
               <div className="flex items-start gap-4">

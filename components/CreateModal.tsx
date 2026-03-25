@@ -6,7 +6,7 @@ interface CreateModalProps {
   onSubmit: (data: any) => Promise<void>;
 }
 
-const PLANT_TYPES = ["Monstera", "Spider", "Orchid"];
+const PLANT_TYPES = ["Monstera", "Spider", "Orchid", "Fern", "Bonsai", "Succulent"];
 const PLANT_STAGES = ["Sprout", "Teen", "Mature"];
 
 export default function CreateModal({
@@ -109,14 +109,11 @@ export default function CreateModal({
           <button
             type="submit"
             disabled={isSubmitting}
-            className={`mt-4 w-full rounded-lg p-4 font-bold text-white 
-            transition-colors ${
-              isSubmitting
-                ? "cursor-not-allowed bg-gray-400"
-                : "bg-green-600 hover:bg-green-700"
+            className={`mt-4 w-full rounded-lg p-4 font-bold text-white transition-colors ${
+              isSubmitting ? "cursor-not-allowed bg-gray-400" : "bg-green-600 hover:bg-green-700"
             }`}
           >
-            {isSubmitting ? "Asking Botanist AI..." : "Plant Seed 🌱"}
+            {isSubmitting ? "Communing with the Goddess..." : "Plant Seed 🌱"}
           </button>
         </form>
       </div>

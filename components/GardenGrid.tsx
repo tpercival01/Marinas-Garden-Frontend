@@ -10,10 +10,16 @@ const TOTAL_PLOTS = 15;
 const getSprite = (stage: string, type: string) => {
   if (stage === "Sprout") return "/assets/plants/plant_1.png";
   if (stage === "Teen") return "/assets/plants/plant_2.png";
-  if (type === "Monstera") return "/assets/plants/monstera.png";
-  if (type === "Spider") return "/assets/plants/spider.png";
-  if (type === "Orchid") return "/assets/plants/orchid.png";
-  return "/assets/plants/plant_1.png";
+  
+  switch (type) {
+    case "Monstera": return "/assets/plants/monstera.png";
+    case "Spider": return "/assets/plants/spider.png";
+    case "Orchid": return "/assets/plants/orchid.png";
+    case "Fern": return "/assets/plants/fern.png";
+    case "Bonsai": return "/assets/plants/bonsai.png";
+    case "Succulent": return "/assets/plants/succulent.png";
+    default: return "/assets/plants/plant_2.png";
+  }
 };
 
 export default function GardenGrid({ plants, onPlotClick }: GardenGridProps) {
