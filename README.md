@@ -1,4 +1,4 @@
-# Marina's Digital Garden: Frontend Client 🌿
+# Marina's Garden: Frontend Client 🌿
 
 **Live Application:** [Play Marina's Garden](https://marinas-garden.vercel.app/)  
 **Backend API Repository:** [Link to backend](https://github.com/tpercival01/Marinas-Garden-Backend/)
