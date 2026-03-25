@@ -163,9 +163,13 @@ export default function Garden() {
         backgroundImage: 'url("/assets/backgrounds/background_light.png")',
         imageRendering: "pixelated", 
       }}>
-      <div className="absolute left-1/2 top-[5%] z-40 -translate-x-1/2 text-center">
-        <button onClick={() => supabase.auth.signOut()} className="text-white underline text-sm">
-          Sign Out
+
+      <div className="absolute right-4 top-4 z-50">
+        <button 
+          onClick={() => supabase.auth.signOut()} 
+          className="flex items-center gap-2 rounded-full border border-yellow-900/30 bg-[#2a2626]/80 px-4 py-2 font-nunito text-sm font-bold text-yellow-500 shadow-lg backdrop-blur-md transition-all hover:bg-yellow-600 hover:text-white hover:shadow-[0_0_15px_rgba(202,138,4,0.4)]"
+        >
+          <span>🚪</span> Leave Garden
         </button>
       </div>
 
