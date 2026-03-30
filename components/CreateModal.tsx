@@ -6,8 +6,8 @@ interface CreateModalProps {
   onSubmit: (data: any) => Promise<void>;
 }
 
-const PLANT_TYPES = ["Monstera", "Spider", "Orchid", "Fern", "Bonsai", "Succulent"];
-const PLANT_STAGES = ["Sprout", "Teen", "Mature"];
+const PLANT_TYPES = ["Monstera", "Spider", "Orchid", "Fern", "Bonsai", "Succulent", "String of Hearts", "Yucca", "String of Pearls", "Snake Plant", "Bamboo", "Money Plant", "Peace Lily", "Flowers (Store bought)"];
+const PLANT_STAGES = ["Seed", "Sprout", "Growing", "Mature", "Dormant"];
 
 export default function CreateModal({
   plotIndex,
