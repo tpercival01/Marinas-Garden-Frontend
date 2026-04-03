@@ -1,6 +1,6 @@
 # Marina's Garden: Frontend Client 🌿
 
-**Live Application:** [Play Marina's Garden](https://marinas-garden.vercel.app/)  
+**Live Application:** [Play Marina's Garden](https://garden.thomaspercival.dev/)  
 **Backend API Repository:** [Link to backend](https://github.com/tpercival01/Marinas-Garden-Backend/)
 
 This is the frontend client for Marina's Digital Garden, an interactive web application that allows users to create and manage a virtual garden while tracking the care of their real-life plants. It is a fully responsive, decoupled Next.js application that communicates with a custom FastAPI backend.
